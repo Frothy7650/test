@@ -1,5 +1,5 @@
 {
-  "name": "ghpkg_test",
+  "name": "test_ghpkg",
   "version": "1",
   "description": "Test package for ghpkg",
   "build": "g++ --std=c++23 $temptest_ghpkg/main.cpp -o $temptest_ghpkg/main.bin",
