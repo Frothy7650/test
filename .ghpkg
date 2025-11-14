@@ -2,7 +2,7 @@
   "name": "test",
   "version": "1",
   "description": "Test package for ghpkg",
-  "build": "g++ /tmp/main.cpp -o /tmp/main.bin",
+  "build": "g++ --std=c++23 /tmp/main.cpp -o /tmp/main.bin",
   "dependencies": ["g++"],
-  "os": ["windows"]
+  "os": ["linux", "macos"]
  }
