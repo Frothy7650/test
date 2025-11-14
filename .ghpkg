@@ -2,7 +2,7 @@
   "name": "ghpkg_test",
   "version": "1",
   "description": "Test package for ghpkg",
-  "build": "g++ --std=c++23 $temptest/main.cpp -o $temptest/main.bin",
+  "build": "g++ --std=c++23 $temptest_ghpkg/main.cpp -o $temptest/main.bin",
   "binary_name": "main.bin",
   "dependencies": ["g++"],
   "os": ["linux", "macos", "windows"]
