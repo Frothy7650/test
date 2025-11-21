@@ -2,6 +2,6 @@
 
 int main()
 {
-  std::print("Hello world, GHPKG works!");
+  std::cout << "Hello world, GHPKG works!" << std::endl;
   return 0;
 }
