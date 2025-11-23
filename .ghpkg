@@ -4,6 +4,7 @@
   "description": "Test package for ghpkg",
   "build": "g++ --std=c++23 $temp/test_ghpkg/main.cpp -o $temp/test_ghpkg/test_ghpkg",
   "binary_name": "test_ghpkg",
+  "binary_dir": "",
   "dependencies": ["g++"],
   "os": ["linux", "macos", "windows"]
  }
